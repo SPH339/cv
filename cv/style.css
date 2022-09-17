@@ -1,0 +1,136 @@
+@import url(https://fonts.googleapis.com/css?family=Audiowide|Trirong);
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/* For links */
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+/*For lists */
+ul {
+	list-style-type: none;
+   }
+
+.top {
+	font-family: "Audiowide", sans-serif;
+	color: lightslategray;
+	background-color: lightblue;
+	padding: 400px;	
+
+}
+
+.middle {
+	font-family: "Trirong", sans-serif;
+	font-size: 25px;
+	background-color: lightslategray;
+	padding: 100px;	
+	color: lightblue;
+	
+}
+
+.bottom {
+	font-family: "Trirong", sans-serif;
+	background-color: lightblue;
+    font-size: 35px;
+	padding: 100px;	
+	color: lightslategray;
+
+}
+
+.button {
+	background-color: lightblue;
+	color: #3d84cb;
+	padding: 2px 6px 2px 6px;
+	border-top: 4px solid #3d84cb;
+	border-right: 4px solid #3d84cb;
+	border-bottom: 4px solid #3d84cb;
+	border-left: 4px solid #3d84cb;
+	border-radius: 100px;
+}
+
+hr {
+	border-style: inset;
+	border-width: 1px;
+	border: 1px dashed rgb(7, 54, 143);
+	position: relative;
+    display: flex;
+    justify-content: center;
+  }
+
+  .picture {
+	border-image-source: url(images/banner.jpg);
+    border: 10px solid transparent;
+    padding: 15px;
+}
+
+.buttondiv {
+	border: 5px outset white;
+	background-color: white;
+	text-align: center;
+}
+
+
+.sun {
+	background-image: url(images/sun.png);
+	background-repeat: no-repeat;
+	border: 0px;
+	position: absolute;
+	top: 100px;
+	left: 200px;
+	width: 50px;
+	height: 50px;
+}
+
+.pointer {
+	background-image: url(images/pointer.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 500px;
+	left: 850px;
+	width: 50px;
+	height: 50px;
+	border: 5px dashed green;
+
+}
+
+.pborder {
+	border: 2px dashed green;
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+.columns {
+	column-count: 3;
+	float: middle;
+  }
+
+.bottomcolumns {
+	column-count: 2;
+	float: middle;
+  }
+
+.contentcolumns {
+	column-count: 2;
+	float: middle;
+  }
+
+.border {
+	border: 3px solid lightblue;
+}
